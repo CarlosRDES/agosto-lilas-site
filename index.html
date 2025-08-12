@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agosto Lilás: Quem ama, acolhe e protege</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header fixo -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <i class="fas fa-heart"></i>
+                    <h1>Agosto Lilás</h1>
+                </div>
+                <nav class="header__nav">
+                    <a href="#dados" class="nav-link">Dados</a>
+                    <a href="#tipos" class="nav-link">Tipos de Violência</a>
+                    <a href="#ajuda" class="nav-link">Canais de Ajuda</a>
+                    <a href="#emergencia" class="btn btn--primary btn--sm">Emergência 180</a>
+                </nav>
+                <button class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">Agosto Lilás</h1>
+                <p class="hero__subtitle">Quem ama, acolhe e protege</p>
+                <p class="hero__description">
+                    O mês de conscientização sobre a violência contra a mulher. 
+                    Baseado na Lei Maria da Penha (Lei 11.340/2006), criamos este espaço 
+                    para informar, acolher e conectar mulheres aos recursos de proteção.
+                </p>
+                <div class="hero__actions">
+                    <a href="#ajuda" class="btn btn--primary">Buscar Ajuda</a>
+                    <a href="#dados" class="btn btn--secondary">Ver Dados</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergência Banner -->
+    <section class="emergency-banner">
+        <div class="container">
+            <div class="emergency-banner__content">
+                <div class="emergency-banner__item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <strong>Emergência: 190</strong>
+                        <span>Polícia Militar</span>
+                    </div>
+                </div>
+                <div class="emergency-banner__item">
+                    <i class="fas fa-headset"></i>
+                    <div>
+                        <strong>Atendimento: 180</strong>
+                        <span>24h gratuito e sigiloso</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dados de Impacto -->
+    <section id="dados" class="impact-data">
+        <div class="container">
+            <h2 class="section-title">Dados que não podemos ignorar</h2>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="impact-card__number">1 em 4</div>
+                    <p>mulheres brasileiras sofre violência doméstica durante a vida</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-card__number">+60%</div>
+                    <p>dos casos acontecem dentro de casa</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-card__number">2 min</div>
+                    <p>uma mulher sofre violência no Brasil</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-card__number">1.492</div>
+                    <p>feminicídios em 2024 (4 por dia)</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-card__number">21,4 mi</div>
+                    <p>mulheres sofreram violência em 2024</p>
+                </div>
+                <div class="impact-card impact-card--highlight">
+                    <div class="impact-card__icon"><i class="fas fa-volume-mute"></i></div>
+                    <p><strong>O silêncio é o maior aliado da violência</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tipos de Violência -->
+    <section id="tipos" class="violence-types">
+        <div class="container">
+            <h2 class="section-title">Tipos de Violência Contra a Mulher</h2>
+            <div class="violence-grid">
+                <div class="violence-card" data-type="fisica">
+                    <div class="violence-card__header">
+                        <i class="fas fa-hand-fist"></i>
+                        <h3>Violência Física</h3>
+                    </div>
+                    <p class="violence-card__description">Agressões, tapas, empurrões, lesões corporais</p>
+                    <div class="violence-card__examples">
+                        <strong>Exemplos:</strong> Socos, chutes, queimaduras, uso de objetos para agredir
+                    </div>
+                </div>
+
+                <div class="violence-card" data-type="psicologica">
+                    <div class="violence-card__header">
+                        <i class="fas fa-brain"></i>
+                        <h3>Violência Psicológica</h3>
+                    </div>
+                    <p class="violence-card__description">Ameaças, humilhações, controle, isolamento</p>
+                    <div class="violence-card__examples">
+                        <strong>Exemplos:</strong> Insultos, chantagem, proibir de trabalhar ou estudar
+                    </div>
+                </div>
+
+                <div class="violence-card" data-type="sexual">
+                    <div class="violence-card__header">
+                        <i class="fas fa-shield-halved"></i>
+                        <h3>Violência Sexual</h3>
+                    </div>
+                    <p class="violence-card__description">Abuso, estupro, forçar relações íntimas</p>
+                    <div class="violence-card__examples">
+                        <strong>Exemplos:</strong> Relações forçadas, exposição não consentida
+                    </div>
+                </div>
+
+                <div class="violence-card" data-type="patrimonial">
+                    <div class="violence-card__header">
+                        <i class="fas fa-coins"></i>
+                        <h3>Violência Patrimonial</h3>
+                    </div>
+                    <p class="violence-card__description">Destruição de bens, controle financeiro</p>
+                    <div class="violence-card__examples">
+                        <strong>Exemplos:</strong> Quebrar objetos, impedir acesso ao dinheiro
+                    </div>
+                </div>
+
+                <div class="violence-card" data-type="moral">
+                    <div class="violence-card__header">
+                        <i class="fas fa-comment-slash"></i>
+                        <h3>Violência Moral</h3>
+                    </div>
+                    <p class="violence-card__description">Insultos, difamações, calúnia, expor intimidade</p>
+                    <div class="violence-card__examples">
+                        <strong>Exemplos:</strong> Fofocas, exposição em redes sociais
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Canais de Ajuda -->
+    <section id="ajuda" class="help-channels">
+        <div class="container">
+            <h2 class="section-title">Onde Buscar Ajuda</h2>
+            
+            <!-- Emergência -->
+            <div class="help-section" id="emergencia">
+                <h3 class="help-section__title">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    Emergência
+                </h3>
+                <div class="help-grid">
+                    <div class="help-card help-card--emergency">
+                        <div class="help-card__header">
+                            <i class="fas fa-phone"></i>
+                            <h4>Polícia Militar</h4>
+                        </div>
+                        <div class="help-card__phone">190</div>
+                        <p>Para emergências imediatas</p>
+                        <a href="tel:190" class="btn btn--primary btn--full-width">Ligar Agora</a>
+                    </div>
+                    <div class="help-card help-card--emergency">
+                        <div class="help-card__header">
+                            <i class="fas fa-headset"></i>
+                            <h4>Central de Atendimento à Mulher</h4>
+                        </div>
+                        <div class="help-card__phone">180</div>
+                        <p>24h gratuito e sigiloso</p>
+                        <div class="help-card__actions">
+                            <a href="tel:180" class="btn btn--primary">Ligar</a>
+                            <a href="https://wa.me/5561961001800" class="btn btn--secondary" target="_blank">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Belo Horizonte -->
+            <div class="help-section">
+                <h3 class="help-section__title">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Belo Horizonte e Região
+                </h3>
+                <div class="help-grid help-grid--compact">
+                    <div class="help-card">
+                        <h4>Casa da Mulher Mineira</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Av. Augusto de Lima, 1.845, Barro Preto</p>
+                        <p>Medidas protetivas, atendimento especializado</p>
+                    </div>
+                    <div class="help-card">
+                        <h4>Centro Risoleta Neves (Cerna)</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Av. Amazonas, 558, Centro</p>
+                        <p><i class="fas fa-phone"></i> (31) 3270-3235 / (31) 3270-3296</p>
+                        <p><i class="fas fa-clock"></i> Segunda a sexta, 8h às 17h</p>
+                    </div>
+                    <div class="help-card">
+                        <h4>Delegacia Especializada</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Av. Barbacena, 288, Barro Preto</p>
+                        <p><i class="fas fa-phone"></i> (31) 3330-5752</p>
+                        <p><i class="fas fa-clock"></i> 24 horas, 7 dias</p>
+                    </div>
+                    <div class="help-card">
+                        <h4>Centro Benvinda</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Rua Hermilo Alves, 34, Santa Tereza</p>
+                        <p><i class="fas fa-phone"></i> (31) 98873-2036</p>
+                        <p><i class="fas fa-clock"></i> Segunda a sexta, 8h às 17h</p>
+                    </div>
+                    <div class="help-card">
+                        <h4>CREAS Barreiro</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Rua David Fonseca, 1.147, Milionários</p>
+                        <p><i class="fas fa-phone"></i> (31) 98865-2078</p>
+                    </div>
+                    <div class="help-card">
+                        <h4>Defensoria Pública (Nudem)</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Rua Araguari, 210, 5º andar, Barro Preto</p>
+                        <p><i class="fas fa-phone"></i> (31) 98475-2616</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Como pedir ajuda -->
+            <div class="help-tips">
+                <h3>Como Pedir Ajuda</h3>
+                <ul class="help-tips__list">
+                    <li><i class="fas fa-users"></i> Converse com alguém de confiança</li>
+                    <li><i class="fas fa-user-md"></i> Fale com funcionário da UBS: enfermeira, médica, ACS</li>
+                    <li><i class="fas fa-building"></i> Procure delegacias especializadas</li>
+                    <li><i class="fas fa-hands-helping"></i> Acesse serviços de assistência social</li>
+                    <li><i class="fas fa-phone-volume"></i> Use canais telefônicos gratuitos e sigilosos</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Caixinha do Desabafo -->
+    <section class="anonymous-form">
+        <div class="container">
+            <div class="form-wrapper">
+                <h2 class="section-title">Caixinha do Desabafo</h2>
+                <p>Um espaço seguro e anônimo para compartilhar sua situação ou pedir orientações.</p>
+                
+                <form id="anonymousForm" class="form">
+                    <div class="form-group">
+                        <label class="form-label" for="situation">Conte um pouco sobre sua situação (opcional)</label>
+                        <textarea id="situation" class="form-control" rows="4" placeholder="Você pode compartilhar o que está vivendo..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="helpType">Que tipo de ajuda você precisa?</label>
+                        <select id="helpType" class="form-control">
+                            <option value="">Selecione...</option>
+                            <option value="informacao">Informações sobre direitos</option>
+                            <option value="juridica">Ajuda jurídica</option>
+                            <option value="psicologica">Apoio psicológico</option>
+                            <option value="abrigo">Local seguro/abrigo</option>
+                            <option value="denuncia">Como fazer denúncia</option>
+                            <option value="emergencia">Situação de emergência</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="city">Sua cidade (opcional)</label>
+                        <input type="text" id="city" class="form-control" placeholder="Para direcionarmos melhor as orientações">
+                    </div>
+                    
+                    <button type="submit" class="btn btn--primary btn--full-width">
+                        <i class="fas fa-paper-plane"></i> Enviar Mensagem Anônima
+                    </button>
+                </form>
+                
+                <div id="formSuccess" class="alert alert--success" style="display: none;">
+                    <i class="fas fa-check-circle"></i>
+                    Sua mensagem foi recebida. Obrigado por confiar em nós. 
+                    Se estiver em situação de risco, não hesite em ligar 180 ou 190.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>O que é violência psicológica?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ameaças, humilhações, controle excessivo, isolamento social, chantagem emocional. É uma forma de violência que ataca a autoestima e pode deixar marcas profundas na vítima.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Como acionar o Disque 180?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ligue 180 gratuitamente, 24h por dia. Atendimento sigiloso por mulheres capacitadas. Também disponível via WhatsApp: (61) 9610-0180.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Para quem pedir ajuda dentro da UBS?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Enfermeira, médica, agente comunitário de saúde (ACS) ou serviço social. Todos são capacitados para acolher e orientar sobre os próximos passos.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>O que é a Lei Maria da Penha?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Lei 11.340/2006, criada para combater e punir a violência doméstica e familiar contra a mulher. Estabelece medidas de proteção e responsabilização do agressor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h4>Agosto Lilás</h4>
+                    <p>Campanha de conscientização sobre violência contra a mulher, baseada na Lei Maria da Penha (Lei 11.340/2006).</p>
+                </div>
+                
+                <div class="footer__section">
+                    <h4>Emergência</h4>
+                    <p><strong>190</strong> - Polícia Militar</p>
+                    <p><strong>180</strong> - Central de Atendimento à Mulher</p>
+                </div>
+                
+                <div class="footer__section">
+                    <h4>Aplicativo</h4>
+                    <p><strong>MG Mulher</strong><br>
+                    Disponível para Android e iOS</p>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2024 Agosto Lilás. Feito com ♥ para proteger e acolher.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
