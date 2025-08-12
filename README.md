@@ -1,13 +1,23 @@
-# agosto-lilas-site
+# Site de Agosto Lilas por Carlos Céspedes Rodrigues
 
 ## Site Oficial
 
 Acesse o site oficial em: https://agosto-lilas-bh-mg.netlify.app
 
-## Objetivo do Projeto
+## Objetivo Desse Projeto
 
-Este projeto tem como objetivo promover a campanha Agosto Lilás, uma iniciativa de conscientização sobre a violência doméstica e familiar contra a mulher. O site serve como uma plataforma digital para divulgar informações, recursos e suporte às vítimas de violência.
+Conscientizar sobre a violência contra a mulher (Lei Maria da Penha) e quebrar o silêncio.
 
-## Formulário Anônimo
+Oferecer orientação prática e rápida: o que é violência, exemplos e tipos (física, psicológica, sexual, patrimonial e moral).
 
-O site inclui um formulário anônimo para relatos de violência doméstica, permitindo que vítimas compartilhem suas experiências de forma segura e confidencial. Este recurso é parte importante da campanha Agosto Lilás, oferecendo suporte e acolhimento às pessoas em situação de vulnerabilidade.
+Direcionar para ajuda imediata e local:
+
+Telefones de emergência (190) e atendimento 24h e sigiloso (180).
+
+Serviços e endereços em Belo Horizonte e região (Casa da Mulher, delegacias, Defensoria, CREAS etc.).
+
+## Acolher de forma anônima:
+
+“Caixinha do Desabafo” para relatos/solicitações de ajuda, com recebimento centralizado para equipe da UBS via Netlify Forms.
+
+Facilitar o acesso a informações confiáveis e canais de proteção, com linguagem clara e visual acessível.
